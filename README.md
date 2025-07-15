@@ -22,4 +22,6 @@ Incluye escenarios de autenticación por PIN y búsquedas con y sin resultados e
      ```bash
       start cucumber-report.html
 
+## 🎥 Video de la Automatización
 
+[Descargar video de la ejecución](selaski.feature.mp4)
