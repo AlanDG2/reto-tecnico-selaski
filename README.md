@@ -24,4 +24,4 @@ Incluye escenarios de autenticación por PIN y búsquedas con y sin resultados e
 
 ## 🎥 Video de la Automatización
 
-[Descargar video de la ejecución](selaski.feature.mp4)
+[Descargar video de la ejecución](/selaski.feature.mp4)
