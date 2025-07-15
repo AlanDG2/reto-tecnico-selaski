@@ -1,0 +1,15 @@
+{
+    		"stepDefinitions": [
+        	"cypress/support/step_definitions/**/*.{js,ts}"
+      		],
+    		"json": {
+     	        "enabled": true,
+      		"output": "jsonlogs/logs.json",              
+      		"formater": "cucumber-json-formatter.exe"    
+    		},
+    		"messages" :{
+      		"enabled" : true,  
+      		"output": "jsonlogs/messages.ndjson"	
+   	 }
+
+  	}	

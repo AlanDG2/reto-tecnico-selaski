@@ -1,0 +1,8 @@
+{
+  "token": "cdexd34d7a31da5257lkj5f7af80e21995f0dfe9o",
+  "tokenInvalido": "cdexd34d7a31da5257e1d5f7af80e21995f0dfebg",
+  "pinValido": ["5", "5", "6", "9"],
+  "pinInvalido": ["5", "5", "6", "1"],
+  "busquedaConResultado": "KSIO34596-02",
+  "busquedaSinResultado": "busqueda incorrecta"
+}

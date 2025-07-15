@@ -1,0 +1,37 @@
+{
+  "name": "reto-tecnico",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec 'cypress/e2e/features/*.feature'",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.2.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
+    "@cypress/webpack-preprocessor": "^6.0.4",
+    "cucumber-html-reporter": "^7.2.0",
+    "cypress": "^14.5.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "esbuild": "^0.25.6",
+    "multiple-cucumber-html-reporter": "^3.9.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/step_definitions/",
+    "nonGlobalStepDefinitions": false,
+    "html": {
+      "enabled": true
+    },
+    "json": {
+      "enabled": true,
+      "output": "jsonlogs/logs.json",
+      "formatter": "cucumber-json-formatter.exe"
+    }
+  }
+}
